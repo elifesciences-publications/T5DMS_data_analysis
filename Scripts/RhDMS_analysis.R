@@ -184,10 +184,10 @@ abline(reg_in1Avs0)
 
 
 ##### EXPORT to a csv file so I can graph and/or reopen; Also gives non-averaged values
-write.csv(RhDMSfilter3, file="../Analysis/Rh_filter3.csv",row.names = FALSE)
+write.csv(RhDMSfilter3, file="../Analysis/Rh-HIV1-NMLV_filter3_noAvg.csv",row.names = FALSE)
 
 ### Save point: read in my file again here if I'd like to change the cutoffs below
-#RhDMSfilter3 = read.delim('../Analysis/Rh_filter3.csv', sep=",")
+#RhDMSfilter3 = read.delim('../Analysis/Rh-HIV1-NMLV_filter3_noAvg.csv', sep=",")
 
 
 
