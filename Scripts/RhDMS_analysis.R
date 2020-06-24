@@ -3,7 +3,7 @@
 # distance (# changes) from WT nt/aa seq;
 # the first position (index and aa) deviating from WT;
 # and read counts from all libraries for that nt sequence.
-RhDMS = read.csv('../Data/RhDMS-HIV1-NMLV.tsv')
+RhDMS = read.csv('../Data/RhDMS-HIV1-NMLV.csv')
 head(RhDMS,3)
 
 ## Make easier to work with; get rid of factor class
